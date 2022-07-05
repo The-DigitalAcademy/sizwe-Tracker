@@ -12,3 +12,9 @@ var balanceEl = document.getElementById('balance');
 var incomeEl = document.getElementById('income');
 var expenseEl = document.getElementById('expense');
 var transactionEl = document.getElementById('transaction');
+
+
+function init() {
+
+       balanceEl.innerHTML =$$'{state.balance}';
+}

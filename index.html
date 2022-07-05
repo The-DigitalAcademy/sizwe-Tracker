@@ -13,13 +13,14 @@
          </div>
          
          <div class="h3 d-grid gap-2 col-6 mx-auto">
-                <h3>Balance : 0</h3>
+                <h3>Balance</h3>
+                <div id="balance">R0</div>
          </div>
                
          <div class="card text-bg-danger mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
                 <div class="card-header">Income</div>
                 <div class="card-body">
-                  <h5 class="card-title">R0</h5>
+                  <h5 id="income">R0</h5>
                   
                 </div>
               </div>
@@ -27,7 +28,7 @@
               <div class="card text-bg-success mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
                 <div class="card-header">Expense</div>
                 <div class="card-body">
-                  <h5 class="card-title">R0</h5>
+                  <h5 id="expense">R0</h5>
                 
                 </div>
               </div>
@@ -42,6 +43,7 @@
 <br><br>
               <div class="newtransaction d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-primary" type="button">New transaction</button>
+                <ul id="transaction"></ul>
               </div>
 
               <div class="h1 d-grid gap-2 col-6 mx-auto">
