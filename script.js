@@ -8,7 +8,7 @@ var state = {
                 ]
 }
 
-var balanceEl = document.getElementById('balance');
+var balanceEl = document.getElementById('#balance');
 var incomeEl = document.getElementById('income');
 var expenseEl = document.getElementById('expense');
 var transactionEl = document.getElementById('transaction');
@@ -16,5 +16,6 @@ var transactionEl = document.getElementById('transaction');
 
 function init() {
 
-       balanceEl.innerHTML =$$'{state.balance}';
+       balanceEl.innerHTML =R$`{state.balance}`;
+       console.log('balance')
 }
