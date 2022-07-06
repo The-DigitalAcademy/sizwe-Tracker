@@ -9,26 +9,37 @@ var state = {
                 ]
 }
 
-var balanceEl = document.getElementById('balance');
-var incomeEl = document.getElementById('income');
-var expenseEl = document.getElementById('expense');
-var transactionEl = document.getElementById('transaction');
+var balanceEl = document.querySelector('#balance');
+var incomeEl = document.querySelector('income');
+var expenseEl = document.querySelector('expense');
+var transactionEl = document.querySelector('transaction');
 
+
+function init () {
+     balanceEl.innerHTML = '';
+}
+
+var names = 'future';
+console.log('your name is');
 
 function incomeAdd() {
+    var names = document.getElementById('name').value
+
+      names.push('name')
+
+      // console.log(name)
+      }
+
+
+ function expenseAdd() {
      var names = document.getElementById('name').value
 
      names.push('name')
+      // console.log('sizwe')
+ }
 
-     console.log(name)
-}
-
-function expenseAdd() {
-     // console.log('sizwe')
-}
-
-function init() {
-     //   console.log('sine')
-}
+ function init() {
+      //   console.log('sine')
+ }
 
 init();
