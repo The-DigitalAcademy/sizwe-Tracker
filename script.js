@@ -14,8 +14,12 @@ var expenseEl = document.getElementById('expense');
 var transactionEl = document.getElementById('transaction');
 
 
-function init() {
-
-       balanceEl.innerHTML =R$`{state.balance}`;
-       console.log('balance')
+function incomeAdd() {
+     console.log(cxccbcbg)
 }
+
+function init() {
+       console.log('ccvncv')
+}
+
+init();
