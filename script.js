@@ -9,18 +9,15 @@ var state = {
                 ]
 }
 
-var balanceEl = document.querySelector('#balance');
+var balanceEl = document.querySelector('balance');
 var incomeEl = document.querySelector('income');
 var expenseEl = document.querySelector('expense');
 var transactionEl = document.querySelector('transaction');
 
 
 function init () {
-     balanceEl.innerHTML = '';
+     balanceEl.innerHTML = 'R${state.balance}';
 }
-
-var names = 'future';
-console.log('your name is');
 
 function incomeAdd() {
     var names = document.getElementById('name').value
