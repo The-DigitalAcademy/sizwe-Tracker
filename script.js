@@ -20,6 +20,16 @@ function init () {
      balanceEl.innerHTML = 'R${state.balance}';
      incomeEl.innerHTML = 'R${state.income}';
      expenseEl.innerHTML = 'R${state.expense}';
+
+     var transactionEl;
+
+     for (var i = 0; i < state.transactionEl.length; i++) {
+          transactionEl = document.createElement('li');
+          transactionEl.append(state.transactionEl);
+
+          transactionEl.appendChild(transactionEl);
+     }
+
 }
 
 function incomeAdd() {
@@ -29,7 +39,7 @@ function incomeAdd() {
 
       // console.log(name)
       }
-
+ 
 
  function expenseAdd() {
      var names = document.getElementById('name').value
