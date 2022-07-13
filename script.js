@@ -3,7 +3,7 @@ var state = {
                 income: 0,
                 expense: 0,
                 names: [],
-                history: [
+                historys: [
                      {name:'name', amount: 0, type: 'income'},  
                      {name:'name', amount: 0, type: 'expense'},         
                 ]
@@ -12,7 +12,7 @@ var state = {
 var balanceEl = document.querySelector('balance');
 var incomeEl = document.querySelector('income');
 var expenseEl = document.querySelector('expense');
-var historyEl = document.querySelector('transaction');
+var historyEl = document.querySelector('history');
 
 
 
@@ -33,7 +33,7 @@ function init () {
           containerEl = document.createElement('div');
           amountEl = document.createElement
      }
-0.61654
+
 }
 
 function incomeAdd() {
