@@ -24,10 +24,14 @@ function init () {
      var transactionEl;
 
      for (var i = 0; i < state.transactionEl.length; i++) {
+          item = state.transactionEl[i];
           transactionEl = document.createElement('li');
-          transactionEl.append(state.transactionEl);
+          transactionEl.append(item.name);
 
           transactionEl.appendChild(transactionEl);
+
+          containerEl = document.createElement('div');
+          amountEl
      }
 
 }
