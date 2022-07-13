@@ -12,7 +12,7 @@ var state = {
 var balanceEl = document.querySelector('balance');
 var incomeEl = document.querySelector('income');
 var expenseEl = document.querySelector('expense');
-var transactionEl = document.querySelector('transaction');
+var historyEl = document.querySelector('transaction');
 
 
 
@@ -21,19 +21,19 @@ function init () {
      incomeEl.innerHTML = 'R${state.income}';
      expenseEl.innerHTML = 'R${state.expense}';
 
-     var transactionEl;
+     var historyEl;
 
-     for (var i = 0; i < state.transactionEl.length; i++) {
-          item = state.transactionEl[i];
-          transactionEl = document.createElement('li');
-          transactionEl.append(item.name);
+     for (var i = 0; i < state.historyEl.length; i++) {
+          item = state.historyEl[i];
+          historyEl = document.createElement('li');
+          historyEl.append(item.name);
 
-          transactionEl.appendChild(transactionEl);
+          historyEl.appendChild(historyEl);
 
           containerEl = document.createElement('div');
-          amountEl
+          amountEl = document.createElement
      }
-
+0.61654
 }
 
 function incomeAdd() {
