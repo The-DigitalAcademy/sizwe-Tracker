@@ -26,7 +26,7 @@ function init () {
      for (var i = 0; i < state.historyEl.length; i++) {
           item = state.historyEl[i];
           historyEl = document.createElement('li');
-          historyEl.append(item.name);0
+          historyEl.append(item.name);
 
           historyEl.appendChild(historyEl);
 
@@ -39,7 +39,7 @@ function init () {
 function incomeAdd() {
     var names = document.getElementById('name').value
 
-      names.push('name')
+      names.push('income')
 
       // console.log(name)
       }
