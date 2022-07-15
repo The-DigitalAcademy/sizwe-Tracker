@@ -30,3 +30,8 @@ margin: auto;
 background-color: red;
  color: white;
 }
+
+#addExpense {
+background-color: green;
+color: white;
+}
