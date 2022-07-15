@@ -2,25 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tracker</title>
   
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" 
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-      <h1 class="title">Tracker App</h1>
-  <header>
+         <div class="h1 d-grid gap-2 col-6 mx-auto">
+                <h1>Tracker Expense</h1>
+         </div>
+         
+         <div class="h3 d-grid gap-2 col-6 mx-auto">
+                <h3>Balance</h3>
+                <div id="balance">R0</div>
+         </div>
+               
+         <div class="card text-bg-danger mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
+                <div class="card-header">Income</div>
+                <div class="card-body"> 
 
-    <section class="content">
-      <h3 class="secondTitle"> Add anew Item</h3>
-       <div class="form">
-        <form id="">
+                  <h5 id="income">R0</h5>
+                  
+                </div>
+              </div>
 
-        </form>
-       </div>
-    </section>
+              <div class="card text-bg-success mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
+                <div class="card-header">Expense</div>
+                <div class="card-body">
+                  <h5 id="expense">R0</h5>
+                
+                </div>
+              </div>
+ 
+              <div class="inputer d-grid gap-2 col-6 mx-auto">
+                <input type="text" id="name" placeholder="Enter type">
+              </div>
+<br><br>
+              <div class="inputnum d-grid gap-2 col-6 mx-auto">
+                <input type="number" id="amount" >
+              </div>
+<br><br>
+              <div class="income d-grid gap-2 col-6 mx-auto ">
+                <button class="btn bg-danger" type="button" onclick="incomeAdd()">Income</button>
+                <ul id="income"></ul>
+              </div>
+<br><br>
+              <div class="expense d-grid gap-2 col-6 mx-auto">
+                <button class="btn bg-success" type="button" onclick="expenseAdd()">Expense</button>
+                <ul id="expense"></ul>
+              </div>
+
+              <div class="h1 d-grid gap-2 col-6 mx-auto">
+                <h3>Transaction History</h3>
+                <div id="history"></div>
+                <hr>
+                <label for="name"> name</label>
+                <label for="amount" type="number" >  amount</label>
+             
+         </div>
 
               <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
