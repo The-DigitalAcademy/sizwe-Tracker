@@ -18,3 +18,9 @@ text-align: center;
 .expense span {
 color: green;
 }
+
+.box {
+background-color: white;
+width: 300px;
+margin: auto;
+}
