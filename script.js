@@ -39,8 +39,7 @@ function init () {
 function incomeAdd() {
     var names = document.getElementById('name').value
 
-      names.push('income')
-
+      names.push('income');
       // console.log(name)
       }
  
