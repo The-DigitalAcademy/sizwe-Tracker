@@ -14,3 +14,7 @@ body {
 .expense {
 text-align: center;
 }
+
+.expense span {
+color: green;
+}
