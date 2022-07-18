@@ -13,6 +13,7 @@ var expense = document.getElementById('expense')
 var balance = document.getElementById('balance')
 var detail = document.getElementById('detail')
 var amount = document.getElementById('amount')
+var addIncome = document.getElementById('addIncome')
 
 
 function init() {
