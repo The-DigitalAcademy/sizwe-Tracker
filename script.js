@@ -11,6 +11,7 @@ var state = {
 var income = document.getElementById('income')
 var expense = document.getElementById('expense')
 var balance = document.getElementById('balance')
+var detail = document.getElementById('detail')
 
 
 function init() {
