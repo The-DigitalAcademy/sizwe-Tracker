@@ -9,6 +9,10 @@ var expense = document.getElementById('expense')
 var balance = document.getElementById('balance')
 
 
-function init()
+function init() {
+     income.innerHTML = state.income
+     expense.innerHTML = state.expense
+     balance.innerHTML = state.balance
+}
 
 init()
