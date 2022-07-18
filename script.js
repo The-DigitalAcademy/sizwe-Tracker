@@ -24,6 +24,7 @@ function init() {
 }
 
 function addIncome() {
-    
+    console.log('detail', detail.value)
+    console.log('amount', amount.value)
 }
 init()
