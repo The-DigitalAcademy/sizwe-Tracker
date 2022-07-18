@@ -24,11 +24,6 @@ function init() {
 }
 
 function addIncome() {
-    state.transaction.push({
-                type: 'income',
-                detail: detail.value,
-                value: amount.value,
-    })
-    console.log(state.transaction)
+    
 }
 init()
