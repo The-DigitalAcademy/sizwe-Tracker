@@ -7,3 +7,8 @@ var state = {
 var income = document.getElementById('income')
 var expense = document.getElementById('expense')
 var balance = document.getElementById('balance')
+
+
+function init()
+
+init()
