@@ -23,4 +23,5 @@ function init() {
      balance.innerHTML = state.balance
 }
 
+function 
 init()
