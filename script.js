@@ -3,3 +3,6 @@ var state = {
    expense: 0,
    balanced: 0, 
 }
+
+var income = document.getElementById('income')
+var expense = document.getElementById('expense')
