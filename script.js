@@ -26,13 +26,13 @@ function init() {
 }
 
 function addIncome() {
-    console.log('detail', detail.value)
-    console.log('amount', amount.value)
+    // console.log('detail', detail.value)
+    // console.log('amount', amount.value)
 }
 
 function addExpense() {
-console.log('detail', detail.value)
-console.log('amount', amount.value)
+// console.log('detail', detail.value)
+// console.log('amount', amount.value)
 }
 
 init() 
