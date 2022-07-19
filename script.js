@@ -28,7 +28,8 @@ function addIncome() {
     console.log('amount', amount.value)
 }
 
-function addExpense() {}
+function addExpense() {
 console.log('detail', detail.value)
 console.log('amount', amount.value)
+}
 init()
