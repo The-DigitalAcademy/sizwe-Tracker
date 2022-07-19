@@ -26,12 +26,12 @@ height: 150px;
 margin: auto;
 }
 
-#addIncome {
+#addincome {
 background-color: red;
  color: white;
 }
 
-#addExpense {
+#addexpense {
 background-color: green;
 color: white;
 }
