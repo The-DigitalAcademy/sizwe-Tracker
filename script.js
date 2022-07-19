@@ -15,6 +15,7 @@ var detail = document.getElementById('detail')
 var amount = document.getElementById('amount')
 var addincome = document.getElementById('addincome')
 var addexpense = document.getElementById('addexpense')
+var transaction = document.getElementById('transaction')
 
 
 function init() {
