@@ -25,7 +25,7 @@ function init() {
 }
 
 for (let i = 0; i <state.transaction.length; i++) {
-
+   let transaction = state.transaction[i]
 }
 
 function addIncome() {
