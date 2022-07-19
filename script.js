@@ -40,7 +40,10 @@ transaction.innerHTML = 'world'
 for (let i = 0; i <state.transaction.length; i++) {
     let transaction = state.transaction[i]
 
-    if
+    if((transaction.type = 'income')){
+        transaction.innerHTML +=`<div class="transaction">Transaction</div`
+        
+    }
  }
 
 init() 
