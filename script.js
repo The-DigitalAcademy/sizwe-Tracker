@@ -35,8 +35,12 @@ function addExpense() {
 // console.log('amount', amount.value)
 }
 
+transaction.innerHTML = 'world'
+
 for (let i = 0; i <state.transaction.length; i++) {
     let transaction = state.transaction[i]
+
+    if
  }
 
 init() 
