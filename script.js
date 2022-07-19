@@ -43,6 +43,7 @@ for (let i = 0; i <state.transaction.length; i++) {
     if((transaction.type = 'income')){
         transaction.innerHTML +=`<div class="transaction">Transaction</div`;
         <span class="text">${transaction.detail}</span>
+        console.log('income')
     }
  }
 
