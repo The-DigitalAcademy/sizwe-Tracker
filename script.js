@@ -21,6 +21,7 @@ function init() {
      income.innerHTML = state.income
      expense.innerHTML = state.expense
      balance.innerHTML = state.balance
+     console.log('init')
 }
 
 function addIncome() {
