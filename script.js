@@ -24,6 +24,10 @@ function init() {
      console.log('init')
 }
 
+for (let i = 0; i <state.transaction.length; i++) {
+
+}
+
 function addIncome() {
     // console.log('detail', detail.value)
     // console.log('amount', amount.value)
