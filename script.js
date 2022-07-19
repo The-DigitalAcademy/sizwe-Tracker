@@ -4,7 +4,6 @@ var state = {
    balance: 0, 
    transaction: [
              {type: 'income', text: 'salary', value: 5000},
-             {type: 'expense', text: 'transport', value: 5000}
    ]
 }
 
