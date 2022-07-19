@@ -13,8 +13,8 @@ var expense = document.getElementById('expense')
 var balance = document.getElementById('balance')
 var detail = document.getElementById('detail')
 var amount = document.getElementById('amount')
-var addIncome = document.getElementById('addIncome')
-var addExpense = document.getElementById('addExpense')
+var addincome = document.getElementById('addIncome')
+var addexpense = document.getElementById('addExpense')
 
 
 function init() {
