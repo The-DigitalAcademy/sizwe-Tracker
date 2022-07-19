@@ -34,4 +34,8 @@ function addExpense() {
 console.log('detail', detail.value)
 console.log('amount', amount.value)
 }
+
+function transaction {
+    console.log('salary')
+}
 init()
