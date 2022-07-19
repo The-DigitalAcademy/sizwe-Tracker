@@ -1,5 +1,5 @@
 var state = {
-   income: 0,
+   income: 100,
    expense: 0,
    balance: 0, 
    transaction: [
@@ -35,3 +35,4 @@ console.log('detail', detail.value)
 console.log('amount', amount.value)
 }
 
+init() 
