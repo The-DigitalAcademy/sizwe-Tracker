@@ -24,9 +24,6 @@ function init() {
      console.log('init')
 }
 
-for (let i = 0; i <state.transaction.length; i++) {
-   let transaction = state.transaction[i]
-}
 
 function addIncome() {
     // console.log('detail', detail.value)
@@ -37,5 +34,9 @@ function addExpense() {
 // console.log('detail', detail.value)
 // console.log('amount', amount.value)
 }
+
+for (let i = 0; i <state.transaction.length; i++) {
+    let transaction = state.transaction[i]
+ }
 
 init() 
