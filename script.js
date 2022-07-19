@@ -22,7 +22,7 @@ function init() {
      income.innerHTML = state.income
      expense.innerHTML = state.expense
      balance.innerHTML = state.balance
-     console.log('0')
+     console.log('init')
 }
 
 function addIncome() {
@@ -35,7 +35,3 @@ console.log('detail', detail.value)
 console.log('amount', amount.value)
 }
 
-function transaction {
-    console.log('salary')
-}
-init()
