@@ -190,3 +190,6 @@ body {
   transition: translateY(2px);
 }
 
+i.fas.fa-plus-square::before {
+  color: #3cff56;
+}
