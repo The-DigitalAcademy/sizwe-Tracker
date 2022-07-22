@@ -51,3 +51,19 @@ body {
   padding-left: 10px;
   width: auto;
 }
+
+.budget-et {
+  text-align: left;
+   margin: 5px;
+   width: auto;
+   padding: auto;
+   position: absolute;
+   right: 10px;
+   color: #3cff56;
+   background-color: #dec0e4;
+}
+
+.budget-expense-value {
+  float: right;
+  padding-left: 10px;
+}
