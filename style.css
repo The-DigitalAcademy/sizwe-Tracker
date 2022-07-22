@@ -53,6 +53,7 @@ body {
 }
 
 .budget-et {
+  font-size: 1em;
   text-align: left;
    margin: 5px;
    width: auto;
@@ -60,7 +61,7 @@ body {
    position: absolute;
    right: 10px;
    background-color: red;
-   background-color: #dec0e4;
+   background-color: #dce0e4;
 }
 
 .budget-expense-value {
