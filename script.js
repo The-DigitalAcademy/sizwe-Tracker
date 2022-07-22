@@ -42,4 +42,9 @@ const incomeDiv = document.createElement("div");
 incomeDiv.id = "id" + index_number;
 incomeDiv.classList.add("income-div-item");
 
-con
+const newIncome =document.createElement("li");
+newIncome.innerText = newName.value + " " + dS + parseFloat(newValue.value).toFixed(2);
+newIncome.classList.add("income-li");
+incomeDiv.appendChild(newIncome);
+incomeUl.appendChild(incomeDiv);
+
