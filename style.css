@@ -227,4 +227,14 @@ i.fas.fa-plus-square {
   color: #3cff56;
 }
 
-.
+.income-ul {
+  width: auto;
+}
+
+.income-div-item {
+  display: flex;
+  padding: 5px;
+  width: auto;
+  list-style-type: none;
+  border: thistle;
+}
