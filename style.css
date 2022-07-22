@@ -260,3 +260,25 @@ i.fas.fa-plus-square {
   border: none;
   border-radius: 5px 10px;
 }
+
+.expense-li {
+  color: white;
+  background-color: #193857;
+  border-radius: 5px 10px;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.delete-button {
+  order: 1;
+  width: 30px;
+  height: 35px;
+  margin-left: 5px;
+  color: #3cff56;
+  background-color: #193857;
+
+  border-style: none;
+  border-radius: 20%;
+  outline: none;
+}
