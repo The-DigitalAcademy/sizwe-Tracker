@@ -118,3 +118,8 @@ body {
 #new-select:hover {
   transition-duration: 0.4s;
 }
+
+.new {
+  padding: 10px;
+  background-color: #252b2e;
+}
