@@ -29,3 +29,9 @@ function addToList(selection) {
   selectionOption = document.getElementById("new-select").value;
   if ((selectionOption == "new-income" && selection == null) || selection == "newIncome");
 }
+
+var income_item = [];
+income_item.push("newIncome");
+income_item.push(newName.value);
+income_item.push(parseFloat(newValue.value).toFixed(2));
+
