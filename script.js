@@ -28,13 +28,25 @@ function init() {
 function addIncome() {
     let inputdetail = document.getElementById("").value;
     detail.push(inputdetail);
+
+    let text ="";
+    for (let i = 0; i <detail.length; i++) {
+      text += i+1+"" + detail[i]+ "<br>";
+    }
     // console.log('', detail.value)
     // console.log('', amount.value)
 }
 
 function addExpense() {
-console.log('', detail.value)
-console.log('', amount.value)
+  let inputamount = document.getElementById("").value;
+  amount.push(inputamount);
+
+  let amount = "";
+  for(let i = 0; i <amount.length;i++) {
+    number += i+1+ "" + amount[i] + "<br>";
+  }
+// console.log('', detail.value)
+// console.log('', amount.value)
 }
 
 // transaction.innerHTML = 'addIncome'
