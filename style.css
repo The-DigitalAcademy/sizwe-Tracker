@@ -238,3 +238,15 @@ i.fas.fa-plus-square {
   list-style-type: none;
   border: thistle;
 }
+
+.expense-ul {
+  width: auto;
+}
+
+.expense-div-item {
+  display: flex;
+  padding: 5px;
+  width: auto;
+  list-style-type: none;
+  border: thistle;
+}
