@@ -10,3 +10,5 @@ const incomeUl = document.querySelector(".income-ul");
 const expenseUl = document.querySelector(".expense-ul");
 const newSelect = document.querySelector("#new-select");
 const addButton = document.querySelector("#add=button");
+const incomeLi = document.querySelector(".income-li");
+const expenseLi = document.querySelector(".expense-li");
