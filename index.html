@@ -10,15 +10,46 @@
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
   </head>
   <body>
-       <div class="top">
-        <div class="budget-date"> Tracker App</div>
-
-        <div class="budget-value"></div>
-        <div class="budget-it">
-          Income Total
-          <div class="budget-income-value"></div>
-        </div>
-     </div>
+    <div class="top">
+      <div class="budget-date">Tracker App</div>
+      <!-- <div class="budget-main"> -->
+         <div class="budget-value"></div>
+         <div class="budget-it">
+            Income Total
+            <div class="budget-income-value"></div>
+         </div>
+         <div class="budget-et">
+            Expense Total
+            <div class="budget-expense-value"></div>
+         </div>
+      <!-- </div> -->
+   </div>
+   <div class="bottom">
+      <div class="new">
+         <form id="list-form">
+            
+            <select name="new-factor" id="new-select">
+               <option value="new-income">Income</option>
+               <option value="new-expense">Expense</option>
+            </select>
+            <input type="text" placeholder="Add income/expense" id="new-name"></input>
+            <input type="number" placeholder="Enter amount here" id="new-value"></input>
+            <button value="addtolist" id="add-button"><i class="fas fa-plus-square"></i></button>
+         </form>
+      </div>
+      <div class="budget-list">
+         <div class="income-container">
+            <h2 class="income-title">Income</h2>
+            <ul class="income-ul"></ul>
+         </div>
+         <div class="expense-container">
+            <h2 class="expense-title">Expenses</h2>
+            <ul class="expense-ul"></ul>
+         </div>
+      </div>
+   </div>
+   <script src="app.js" defer></script>
+           
 
        
 
