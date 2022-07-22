@@ -168,3 +168,13 @@ body {
   -webkit-appearance: none;
   margin: 0;
 }
+
+#add-button {
+  position: relative;
+  left: 41%;
+  color: white;
+  background-color: #193857;
+
+  border-style: none;
+  border-radius: 20%;
+}
