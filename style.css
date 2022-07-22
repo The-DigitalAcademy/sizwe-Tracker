@@ -16,7 +16,7 @@ body {
 
 .budget-date {
   text-emphasis: center;
-  color: #ffffff;
+  color: black;
   font-family: "staatliches", cursive;
   font-size: 1.5em;
   position: absolute;
@@ -41,7 +41,7 @@ body {
   padding: 5px;
   position: absolute;
   left: 65%;
-  color: #3cff56;
+  color: red;
   background-color: #dce0e4;
 }
 
@@ -109,7 +109,6 @@ body {
   left: 35%;
   background-color: #193857;
   color: red;
-  color: #3cff56;
   border-color: #193857;
   font-size: 25px;
   border-radius: 10%;
