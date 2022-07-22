@@ -6,3 +6,10 @@ body {
   background-color: #0094e9;
   background-image: Linear-gradient(160deg, #293035 0%, #012723 100%);
 }
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
