@@ -144,3 +144,16 @@ body {
   transition-duration: 0.4s;
   background-color: rgb(255, 255. 255);
 }
+
+#new-value {
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px 50px;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 40%;
+  background-color: #193857;
+}
