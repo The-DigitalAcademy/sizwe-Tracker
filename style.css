@@ -139,3 +139,8 @@ body {
 
   background-color: rgb(183, 230, 174);
 }
+
+#new-name:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(255, 255. 255);
+}
