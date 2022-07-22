@@ -39,3 +39,7 @@ total[index_number] = income_item;
 window.localStorage.setItem("total",JSON.stringify(total));
 
 const incomeDiv = document.createElement("div");
+incomeDiv.id = "id" + index_number;
+incomeDiv.classList.add("income-div-item");
+
+con
