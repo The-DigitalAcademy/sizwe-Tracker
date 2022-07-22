@@ -6,3 +6,5 @@ const budgetIncomeValue = document.querySelector(".budget-income-value");
 const budgetExpenseValue = document.querySelector(".budget-expense-value");
 const newName = document.querySelector("#new-name");
 const newValue = document.querySelector("#new-value");
+const incomeUl = document.querySelector(".income-ul");
+const expenseUl = document.querySelector(".expense-ul");
