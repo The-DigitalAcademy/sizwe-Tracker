@@ -203,3 +203,11 @@ i.fas.fa-plus-square {
   display: inline-block;
   height: auto;
 }
+
+.income-container {
+  color: white;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  position: absolute;
+}
