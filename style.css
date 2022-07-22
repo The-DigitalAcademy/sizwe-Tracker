@@ -178,3 +178,15 @@ body {
   border-style: none;
   border-radius: 20%;
 }
+
+#add-button:hover {
+  transition-duration: 0.4s;
+  border-style: none;
+  outline: none;
+}
+
+#add-button:active {
+  box-shadow: 0 2px rgb(54, 70,55);
+  transition: translateY(2px);
+}
+
