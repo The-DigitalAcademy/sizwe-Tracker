@@ -198,3 +198,8 @@ i.fas.fa-plus-square {
   font-size: 30px;
   text-align: center;
 }
+
+.budget-list {
+  display: inline-block;
+  height: auto;
+}
