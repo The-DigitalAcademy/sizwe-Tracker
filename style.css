@@ -42,5 +42,12 @@ body {
   position: absolute;
   left: 65%;
   color: #3cff56;
-  background-color: #193857;
+  background-color: #dce0e4;
+}
+
+.budget-income-value {
+  color: #3cff56;
+  float: right;
+  padding-left: 10px;
+  width: auto;
 }
