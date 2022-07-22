@@ -287,3 +287,9 @@ i.fas.fa-plus-square {
   color: #3cff56;
 }
 
+.fall {
+  transition: 0.4s;
+  transition: translate(8rem) rotate(35deg);
+  opacity: 0;
+}
+
