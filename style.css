@@ -123,3 +123,19 @@ body {
   padding: 10px;
   background-color: #252b2e;
 }
+
+#new-name {
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 200px;
+  position: relative;
+  left: 40px;
+
+  background-color: #193857;
+
+  background-color: rgb(183, 230, 174);
+}
