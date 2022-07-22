@@ -21,30 +21,32 @@ function init() {
      income.innerHTML = state.income
      expense.innerHTML = state.expense
      balance.innerHTML = state.balance
-    //  console.log('init')
-}
+       console.log('init')
+ }
 
 
 function addIncome() {
-    // console.log('detail', detail.value)
-    // console.log('amount', amount.value)
+    let inputdetail = document.getElementById("").value;
+    detail.push(inputdetail);
+    // console.log('', detail.value)
+    // console.log('', amount.value)
 }
 
 function addExpense() {
-// console.log('detail', detail.value)
-// console.log('amount', amount.value)
+console.log('', detail.value)
+console.log('', amount.value)
 }
 
-transaction.innerHTML = 'world'
+// transaction.innerHTML = 'addIncome'
 
-for (let i = 0; i <state.transaction.length; i++) {
-    let transaction = state.transaction[i]
+// for (let i = 0; i <state.transaction.length; i++) {
+//     let transaction = state.transaction[i]
 
-    if((transaction.type = 'income')){
-        transaction.innerHTML +=`<div class="transaction">Transaction</div`;
-        <span class="text"> ${transaction.detail} salary </span>
-        console.log('income')
-    }
- }
+//     if((transaction.type = 'income')){
+//          transaction.innerHTML +=`<div class="transaction">Transaction</div>`;
+//         <div class="text">${transaction.detail} salary </div>
+//         console.log('income')
+//     }
+//  }
 
 init() 
