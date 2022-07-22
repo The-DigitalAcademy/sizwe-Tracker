@@ -49,5 +49,16 @@ console.log('', detail.value)
 console.log('', amount.value)
 }
 
+// transaction.innerHTML = 'addIncome'
+
+// for (let i = 0; i <state.transaction.length; i++) {
+//     let transaction = state.transaction[i]
+
+//     if((transaction.type = 'income')){
+//          transaction.innerHTML +=`<div class="transaction">Transaction</div>`;
+//         <div class="text">${transaction.detail} salary </div>
+//         console.log('income')
+//     }
+//  }
 
 init() 
