@@ -24,3 +24,12 @@ body {
   top: 10%;
   text-decoration: underline;
 }
+
+.budget-value {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  position: absolute;
+  right: 50%;
+
+}
