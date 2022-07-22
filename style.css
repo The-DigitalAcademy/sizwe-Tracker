@@ -67,3 +67,12 @@ body {
   float: right;
   padding-left: 10px;
 }
+
+.bottom {
+  margin: auto;
+}
+
+#list-form {
+  display: flex;
+  align-items: center;
+}
