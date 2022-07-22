@@ -211,3 +211,14 @@ i.fas.fa-plus-square {
   left: 200px;
   position: absolute;
 }
+
+.income-title {
+  color: #3cff56;
+}
+
+.expense-container {
+  color: white;
+  position: relative;
+  left: 700px;
+  position: absolute;
+}
