@@ -103,3 +103,14 @@ body {
   -webkit-appearance: none;
   margin: 0;
 }
+
+#new-select {
+  position: relative;
+  left: 35%;
+  background-color: #193857;
+  color: #3cff56;
+  border-color: #193857;
+  font-size: 25px;
+  border-radius: 10%;
+  outline: none;
+}
