@@ -92,3 +92,8 @@ body {
 #budget:hover {
   transition-duration: 0.4s;
 }
+
+#budget::placeholder {
+  color: white;
+  opacity: 10;
+}
