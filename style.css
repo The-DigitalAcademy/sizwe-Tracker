@@ -250,3 +250,13 @@ i.fas.fa-plus-square {
   list-style-type: none;
   border: thistle;
 }
+
+.income-li {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+
+  background-color: #193857;
+  border: none;
+  border-radius: 5px 10px;
+}
