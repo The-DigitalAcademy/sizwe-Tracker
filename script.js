@@ -8,3 +8,5 @@ const newName = document.querySelector("#new-name");
 const newValue = document.querySelector("#new-value");
 const incomeUl = document.querySelector(".income-ul");
 const expenseUl = document.querySelector(".expense-ul");
+const newSelect = document.querySelector("#new-select");
+const addButton = document.querySelector("#add=button");
