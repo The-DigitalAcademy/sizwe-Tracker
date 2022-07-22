@@ -48,3 +48,19 @@ newIncome.classList.add("income-li");
 incomeDiv.appendChild(newIncome);
 incomeUl.appendChild(incomeDiv);
 
+const deleteButton = document.createElement("button");
+deleteButton.id = index_number;
+deleteButton.classList.add(delete-button);
+deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
+deleteButton.onclick = function () {
+  deleteCheck("newIncome", this.id);
+};
+
+incomeDiv.appendChild(deleteButton);
+index_number ++;
+income = (parseFloat(income) + parseFloat(newValue.value)).toFixed(2);
+amount_left = (parseFloat(income) - parseFloat(expense)).toFixed(2);
+budgetIncomeValue.innerText = dS + income;
+budgetValue.innerText = dS + amount_left;
+newName.value = "";
+newValue.value = "";
