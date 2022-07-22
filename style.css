@@ -76,3 +76,15 @@ body {
   display: flex;
   align-items: center;
 }
+
+#budget {
+  background-color: transparent;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: #3cff56;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: auto;
+}
