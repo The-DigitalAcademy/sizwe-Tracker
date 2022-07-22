@@ -157,3 +157,14 @@ body {
   left: 40%;
   background-color: #193857;
 }
+
+#new-value:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(255, 255,255);
+}
+
+#new-value::-webkit-outer-spin-button,
+#new-value::-webkur-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
