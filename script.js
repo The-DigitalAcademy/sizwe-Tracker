@@ -35,3 +35,7 @@ income_item.push("newIncome");
 income_item.push(newName.value);
 income_item.push(parseFloat(newValue.value).toFixed(2));
 
+total[index_number] = income_item;
+window.localStorage.setItem("total",JSON.stringify(total));
+
+const incomeDiv = document.createElement("div");
