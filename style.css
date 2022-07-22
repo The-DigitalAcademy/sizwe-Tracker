@@ -59,7 +59,7 @@ body {
    padding: auto;
    position: absolute;
    right: 10px;
-   color: #3cff56;
+   color: red;
    background-color: #dec0e4;
 }
 
@@ -82,7 +82,7 @@ body {
   padding: 5px;
   font-size: 30px;
   text-align: center;
-  color: #3cff56;
+  color: red;
   border: none;
   outline: none;
   height: 30px;
@@ -213,7 +213,7 @@ i.fas.fa-plus-square {
 }
 
 .income-title {
-  color: #3cff56;
+  color: green;
 }
 
 .expense-container {
@@ -224,7 +224,7 @@ i.fas.fa-plus-square {
 }
 
 .expense-title {
-  color: #3cff56;
+  color: red;
 }
 
 .income-ul {
