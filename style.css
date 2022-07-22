@@ -108,7 +108,7 @@ body {
   position: relative;
   left: 35%;
   background-color: #193857;
-  color: #3cff56;
+  color: red;
   border-color: #193857;
   font-size: 25px;
   border-radius: 10%;
@@ -241,6 +241,7 @@ i.fas.fa-plus-square {
 
 .expense-ul {
   width: auto;
+  color: red;
 }
 
 .expense-div-item {
