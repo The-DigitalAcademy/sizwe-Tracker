@@ -33,8 +33,8 @@ function addIncome() {
     for (let i = 0; i <detail.length; i++) {
       text += i+1+"" + detail[i]+ "<br>";
     }
-    // console.log('', detail.value)
-    // console.log('', amount.value)
+    console.log('', detail.value)
+    console.log('', amount.value)
 }
 
 function addExpense() {
@@ -45,20 +45,9 @@ function addExpense() {
   for(let i = 0; i <amount.length;i++) {
     number += i+1+ "" + amount[i] + "<br>";
   }
-// console.log('', detail.value)
-// console.log('', amount.value)
+console.log('', detail.value)
+console.log('', amount.value)
 }
 
-// transaction.innerHTML = 'addIncome'
-
-// for (let i = 0; i <state.transaction.length; i++) {
-//     let transaction = state.transaction[i]
-
-//     if((transaction.type = 'income')){
-//          transaction.innerHTML +=`<div class="transaction">Transaction</div>`;
-//         <div class="text">${transaction.detail} salary </div>
-//         console.log('income')
-//     }
-//  }
 
 init() 
