@@ -193,3 +193,8 @@ body {
 i.fas.fa-plus-square::before {
   color: #3cff56;
 }
+
+i.fas.fa-plus-square {
+  font-size: 30px;
+  text-align: center;
+}
