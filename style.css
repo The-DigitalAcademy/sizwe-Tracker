@@ -59,7 +59,7 @@ body {
    padding: auto;
    position: absolute;
    right: 10px;
-   color: red;
+   background-color: red;
    background-color: #dec0e4;
 }
 
@@ -109,6 +109,7 @@ body {
   left: 35%;
   background-color: #193857;
   color: red;
+  color: #3cff56;
   border-color: #193857;
   font-size: 25px;
   border-radius: 10%;
@@ -229,6 +230,7 @@ i.fas.fa-plus-square {
 
 .income-ul {
   width: auto;
+  color: #3cff56;
 }
 
 .income-div-item {
