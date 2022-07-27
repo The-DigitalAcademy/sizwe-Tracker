@@ -14,12 +14,14 @@ const incomeLi = document.querySelector(".income-li");
 const expenseLi = document.querySelector(".expense-li");
 const deleteButton = document.querySelector(".delete-button");
 const newBudget = document.querySelector("#new-budget");
+
 var total = [];
 var index_number = 0;
-var dS = "$";
+var dS = "R";
 var income = 0;
 var expense = 0;
 var amount_left = 0;
+
 //Event Listener
 addButton.addEventListener("click", function(){addToList(null);});
 //Functions
@@ -137,6 +139,8 @@ document.getElementById(String(parseInt(a+1))).id = String(parseInt(a));
 },1100);
 }
 }
+
+
 function get_total(){
 var localstorageitem = window.localStorage.getItem("total");
 if(localstorageitem != null){
