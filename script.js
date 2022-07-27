@@ -140,7 +140,6 @@ document.getElementById(String(parseInt(a+1))).id = String(parseInt(a));
 }
 }
 
-
 function get_total(){
 var localstorageitem = window.localStorage.getItem("total");
 if(localstorageitem != null){
@@ -178,7 +177,7 @@ get_total();
 // var total = [];
 // console.log(total);
 // var index_number = 0;
-// var dS = "$";
+// var dS = "R";
 // var income = 0;
 // var expense = 0;
 // var amount_left = 0;
@@ -291,7 +290,7 @@ get_total();
 // const newBudget = document.querySelector("#new-budget");
 // var total = [];
 // var index_number = 0;
-// var dS = "$";
+// var dS = "R";
 // var income = 0;
 // var expense = 0;
 // var amount_left = 0;
