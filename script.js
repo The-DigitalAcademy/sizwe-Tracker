@@ -24,6 +24,7 @@ var amount_left = 0;
 
 //Event Listener
 addButton.addEventListener("click", function(){addToList(null);});
+
 //Functions
 //FUNCTION addToList
 function addToList(selection) {
