@@ -15,6 +15,7 @@ const expenseLi = document.querySelector(".expense-li");
 const deleteButton = document.querySelector(".delete-button");
 const newBudget = document.querySelector("#new-budget");
 
+ 
 var total = [];
 var index_number = 0;
 var dS = "R";
